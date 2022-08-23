@@ -29,14 +29,14 @@ h1, h2 {
 
 /* navigation links*/
 
-#menu_span {
+#menu-outer {
     float: right;
     font-size: 110%;
     letter-spacing: 4px;
 }
 
 
-#menu_span, #logo {
+#menu-outer, #logo {
     line-height: 75px;
 }
 
@@ -288,7 +288,7 @@ footer {
 /* For larger to medium screen size from 1200px wide and down*/
 
 @media screen and (max-width: 950px) {
-    #menu_span {
+    #menu-outer {
         clear: left;
         float: left;
         margin-left: 30px;
